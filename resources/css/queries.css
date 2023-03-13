@@ -1,0 +1,115 @@
+/*--------This media for 1024px to 1200px screen resolution----------*/
+
+
+@media only screen and (max-width : 1200px) {
+
+    .hero-text {
+        width: 80%;
+        transform: translate(-58%, -41%);
+        font-size: 80%;
+    }
+
+    .row {
+        padding: 0 3%;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-top: 5px;
+    }
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .city-box {padding: 1%;}
+    .cities {
+        padding-bottom: 40px;
+    }
+    blockquote {font-size: 95%; line-height: 150%;}
+    .plan-box div {padding: 13px;}
+    .contact-form {width: 75%;}
+
+}
+
+/*--------This media for 768px to 1023px screen resolution----------*/
+
+@media only screen and (max-width :1023px) {
+    body {font-size: 17px;}
+    .contact-form {width: 90%;}
+    .logo {width: 85px;}
+    .main-nav li {margin-right: 20px;}
+    .long-copy {width: 90%; margin-left: 5%; margin-bottom: 35px;}
+
+
+    .step-box:last-child {
+        margin-top: 44px;
+        padding-left: 2%;
+    }
+    .step-box:first-child {padding-right: 5%;}
+    .work-step div{
+        height: 40px;
+        width: 40px;
+        font-size: 27px;
+    }
+    .work-step {margin-bottom: 25px;}
+    .app-btn img {
+        height: 35px;
+        margin-top: 10px;
+    }
+    .plan-box {
+        width: 96%;
+        margin-left: 2%;
+        font-size: 80%;
+    }
+    .city-info {font-size: 88%;}
+
+    .footer-nav li {margin-right: 5px;}
+
+}
+
+/*--------This media for 480px to 767px screen resolution----------*/
+
+@media only screen and (max-width :767px) {
+    .row {padding: 0 4%;}
+    .main-nav {display: none;}
+    .hero-text
+    .logo {width: 85px;}
+    .col {width: 100%;} 
+    .step-box:first-child {
+        text-align: center;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    .app-screen {
+        width: 30%;
+    }
+    .section-step {padding-bottom: 40px;}
+    .city-info {
+        font-size: 120%;
+        margin-bottom: 10px;
+    }
+    .img-city h3{
+        margin-bottom: 15px;
+    }
+
+    .city-box {padding-bottom: 20px;}
+    .col:first-child {
+        margin: 20px 0 10px 0;
+    }
+    .social-link {
+        float: left;
+    }
+    .plan-box {
+        font-size: 100%;
+    }
+}
+
+
+
+
+/*--------This media for small device  to 480px screen resolution----------*/
+
+
+@media only screen and (max-width :480px) {
+   
+}
